@@ -1,6 +1,15 @@
-a = 1
-year = 0
-while(a == 1):
-    a = int(input("продолжить? "))
-    year = year + 1
-    print(year, "год.")
+def c_f(c):
+    print(c * 9 / 5 + 32)
+
+def p(q):
+    print(q * 40) 
+
+def u(a, b):
+    print(a * b)
+
+
+p("*")
+c_f(30)
+p("-")
+u(15, 2)
+p("*")
